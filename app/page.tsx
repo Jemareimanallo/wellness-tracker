@@ -16,7 +16,7 @@ import {
   Droplets,
   Dumbbell,
   Moon,
-  DollarSign,
+  PhilippinePeso,
   Heart,
   Activity,
   Sparkles,
@@ -245,7 +245,7 @@ export default function Home() {
             <CardHeader className="pb-6 relative pt-8">
               <div className="flex items-center justify-between mb-6">
                 <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-emerald-400 via-green-500 to-teal-500 flex items-center justify-center shadow-2xl">
-                  <DollarSign className="w-10 h-10 text-white" />
+                  <PhilippinePeso className="w-10 h-10 text-white" />
                 </div>
                 <div className="flex items-center gap-2 bg-emerald-100/80 px-5 py-2.5 rounded-full border border-emerald-200">
                   <TrendingUp className="w-4 h-4 text-emerald-600" />
@@ -268,7 +268,7 @@ export default function Home() {
                 <div className="absolute bottom-0 left-0 w-32 h-32 bg-green-400/10 rounded-full -ml-16 -mb-16"></div>
                 <div className="relative">
                   <div className="text-7xl font-bold bg-gradient-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent mb-5">
-                    ${todayExpenses.toFixed(2)}
+                    ₱{todayExpenses.toFixed(2)}
                   </div>
                   <p className="text-amber-800 font-semibold text-xl mb-8">
                     Total spent today
@@ -382,7 +382,7 @@ export default function Home() {
                 Health Tracking
               </Badge>
               <Badge className="px-8 py-4 text-base bg-gradient-to-r from-sky-500 to-blue-600 text-white shadow-xl border-0">
-                <DollarSign className="w-5 h-5 mr-2" />
+                <PhilippinePeso className="w-5 h-5 mr-2" />
                 Financial Wellness
               </Badge>
               <Badge className="px-8 py-4 text-base bg-gradient-to-r from-purple-500 to-indigo-600 text-white shadow-xl border-0">

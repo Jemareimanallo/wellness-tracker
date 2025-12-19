@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
-  DollarSign,
+  PhilippinePeso,
   Plus,
   Trash2,
   TrendingUp,
@@ -156,7 +156,7 @@ export default function ExpensesPage() {
               <div className="space-y-2">
                 <p className="text-sm text-amber-700">Today</p>
                 <p className="text-3xl font-bold text-emerald-700">
-                  ${todayTotal.toFixed(2)}
+                  ₱{todayTotal.toFixed(2)}
                 </p>
               </div>
             </CardContent>
@@ -167,7 +167,7 @@ export default function ExpensesPage() {
               <div className="space-y-2">
                 <p className="text-sm text-amber-700">This Week</p>
                 <p className="text-3xl font-bold text-sky-700">
-                  ${weekTotal.toFixed(2)}
+                  ₱{weekTotal.toFixed(2)}
                 </p>
               </div>
             </CardContent>
@@ -178,7 +178,7 @@ export default function ExpensesPage() {
               <div className="space-y-2">
                 <p className="text-sm text-amber-700">This Month</p>
                 <p className="text-3xl font-bold text-purple-700">
-                  ${monthTotal.toFixed(2)}
+                  ₱{monthTotal.toFixed(2)}
                 </p>
               </div>
             </CardContent>
@@ -189,7 +189,7 @@ export default function ExpensesPage() {
               <div className="space-y-2">
                 <p className="text-sm text-amber-700">Budget Left</p>
                 <p className="text-3xl font-bold text-orange-700">
-                  ${(budget - monthTotal).toFixed(2)}
+                  ₱{(budget - monthTotal).toFixed(2)}
                 </p>
               </div>
             </CardContent>
@@ -206,7 +206,7 @@ export default function ExpensesPage() {
                     Monthly Budget
                   </h3>
                   <p className="text-amber-700">
-                    ${monthTotal.toFixed(2)} / ${budget.toFixed(2)}
+                    ₱{monthTotal.toFixed(2)} / ₱{budget.toFixed(2)}
                   </p>
                 </div>
                 <Badge
@@ -262,7 +262,7 @@ export default function ExpensesPage() {
                 <div className="space-y-6">
                   <div>
                     <label className="block text-sm font-semibold text-amber-900 mb-2">
-                      Amount ($)
+                      Amount (₱)
                     </label>
                     <input
                       type="number"
@@ -388,7 +388,7 @@ export default function ExpensesPage() {
                         </div>
                       </div>
                       <p className="text-2xl font-bold text-amber-900">
-                        ${amount.toFixed(2)}
+                        ₱{amount.toFixed(2)}
                       </p>
                     </div>
                   );
@@ -408,7 +408,7 @@ export default function ExpensesPage() {
           <CardContent>
             {expenses.length === 0 ? (
               <div className="text-center py-12">
-                <DollarSign className="w-16 h-16 mx-auto text-gray-300 mb-4" />
+                <PhilippinePeso className="w-16 h-16 mx-auto text-gray-300 mb-4" />
                 <p className="text-gray-500 text-lg">No expenses yet</p>
                 <p className="text-gray-400">Start tracking your spending!</p>
               </div>
@@ -443,7 +443,7 @@ export default function ExpensesPage() {
                       </div>
                       <div className="flex items-center gap-4">
                         <p className="text-2xl font-bold text-amber-900">
-                          ${expense.amount.toFixed(2)}
+                          ₱{expense.amount.toFixed(2)}
                         </p>
                         <Button
                           type="button"

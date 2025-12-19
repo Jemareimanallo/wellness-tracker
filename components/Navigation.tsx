@@ -2,7 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Activity, DollarSign, BookHeart, Sparkles } from "lucide-react";
+import {
+  Home,
+  Activity,
+  PhilippinePeso,
+  BookHeart,
+  Sparkles,
+} from "lucide-react";
 
 export function Navigation() {
   const pathname = usePathname();
@@ -10,7 +16,7 @@ export function Navigation() {
   const links = [
     { href: "/", label: "Home", icon: Home },
     { href: "/habits", label: "Habits", icon: Activity },
-    { href: "/expenses", label: "Expenses", icon: DollarSign },
+    { href: "/expenses", label: "Expenses", icon: PhilippinePeso },
     { href: "/journal", label: "Journal", icon: BookHeart },
   ];
 
