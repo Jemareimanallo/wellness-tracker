@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wellness-Tracker
 
-## Getting Started
+A comprehensive wellness application designed to help you maintain healthy habits, track expenses, and monitor your emotional well-being. Built with modern web technologies to provide a seamless and intuitive user experience.
 
-First, run the development server:
+## ✨ Features
 
+### 📊 Daily Habit Tracker
+Track your daily habits such as water intake, exercise, and sleep with detailed streak tracking and statistics view. Stay motivated by visualizing your progress over time and building consistent routines.
+
+### 💰 Quick Expense Logger
+Log your daily expenses effortlessly, monitor your budget, and view comprehensive spending summaries. Get insights into your financial habits and make informed decisions about your spending.
+
+### 🌟 Mood & Energy Journal
+Record your daily mood and energy levels with notes and tagging support. Reflect on patterns in your emotional well-being and identify factors that contribute to your overall happiness.
+
+## 🌍 Connection to SDGs
+
+### SDG 3: Good Health and Well-being
+This application directly supports the United Nations Sustainable Development Goal 3 by promoting:
+- **Healthy routines** through consistent habit tracking
+- **Financial awareness** leading to reduced stress and better mental health
+- **Emotional well-being** through daily organization and self-monitoring
+
+By helping users maintain physical health, financial stability, and emotional balance, Wellness-Tracker contributes to a holistic approach to personal wellness.
+
+## 🛠️ Technology Stack
+
+- **[Next.js 14](https://nextjs.org/)** - React framework for production-grade applications
+- **[React.js](https://react.dev/)** - JavaScript library for building user interfaces
+- **[Shadcn UI](https://ui.shadcn.com/)** - Beautifully designed components built with Radix UI and Tailwind CSS
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid UI development
+- **[ChatGPT](https://openai.com/)** - AI-powered assistance for enhanced user experience
+- **LocalStorage** - Client-side data persistence (no backend required initially)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/wellness-tracker.git
+cd wellness-tracker
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Track Habits**: Navigate to the Habit Tracker to log your daily activities like water intake, exercise, and sleep
+2. **Log Expenses**: Use the Expense Logger to record your spending and monitor your budget
+3. **Journal**: Record your mood and energy levels in the Mood & Energy Journal with custom tags
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Deploy on Vercel
+## 🙏 Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- UI components from [Shadcn UI](https://ui.shadcn.com/)
+- Icons and design inspiration from the wellness community
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Made with ❤️ for better health and well-being
